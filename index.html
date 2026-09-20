@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Vishwa A J — Computer Science Engineering graduate portfolio">
+<title>Vishwa A J | Computer Science Engineer</title>
+<style>
+:root{--bg:#070a10;--card:#101725cc;--line:#ffffff18;--text:#eef4ff;--muted:#9aa8bd;--cyan:#67e8f9;--violet:#8b5cf6}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:Inter,system-ui,sans-serif;color:var(--text);background:radial-gradient(circle at 15% 10%,#8b5cf626,transparent 30%),radial-gradient(circle at 85% 20%,#67e8f91a,transparent 25%),var(--bg);line-height:1.6}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.18;background-image:linear-gradient(#fff1 1px,transparent 1px),linear-gradient(90deg,#fff1 1px,transparent 1px);background-size:48px 48px}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}section{padding:100px 0}.nav{position:fixed;z-index:9;top:0;width:100%;background:#070a10bb;backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.navin{height:70px;display:flex;align-items:center;justify-content:space-between}.logo{font-weight:900;letter-spacing:.12em}.logo b{color:var(--cyan)}.links{display:flex;gap:25px;color:var(--muted);font-size:.9rem}.links a:hover{color:#fff}
+.hero{min-height:100vh;display:flex;align-items:center;padding-top:120px}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:60px;align-items:center}.eyebrow,.label{color:var(--cyan);font-size:.75rem;letter-spacing:.18em;text-transform:uppercase;font-weight:800}.eyebrow:before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--cyan);box-shadow:0 0 15px var(--cyan);margin-right:9px}
+h1{font-size:clamp(3.2rem,8vw,6.7rem);line-height:.92;letter-spacing:-.07em;margin:22px 0}.grad{background:linear-gradient(100deg,#fff,var(--cyan),#a78bfa);color:transparent;background-clip:text}.sub,.lead{color:var(--muted);max-width:650px;font-size:1.08rem}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{padding:12px 18px;border:1px solid var(--line);border-radius:12px;background:#ffffff08;font-weight:750;transition:.2s}.btn:hover{transform:translateY(-2px);border-color:#67e8f966}.primary{background:linear-gradient(135deg,#67e8f91f,#8b5cf626)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:27px;box-shadow:0 25px 70px #0005}.terminal{font:14px ui-monospace,monospace;color:#cbd5e1}.terminal .cyan{color:var(--cyan)}.terminal .violet{color:#c4b5fd}.dots{display:flex;gap:7px;margin-bottom:22px}.dots i{width:9px;height:9px;border-radius:50%;background:#64748b}.stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:24px}.stat{padding:14px;border:1px solid var(--line);border-radius:14px}.stat b{display:block;font-size:1.15rem}.stat span{color:var(--muted);font-size:.78rem}
+.head{margin-bottom:38px}.head h2{font-size:clamp(2rem,4vw,3.2rem);letter-spacing:-.04em;margin:7px 0}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}.skills{display:flex;flex-wrap:wrap;gap:9px;margin-top:20px}.skill{padding:7px 11px;border:1px solid var(--line);border-radius:999px;color:#dbeafe;background:#fff1;font-size:.83rem}
+.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.project{min-height:300px;display:flex;flex-direction:column;justify-content:space-between}.num{color:#67e8f9aa;font:12px monospace}.project h3{font-size:1.3rem;margin:18px 0 9px}.muted{color:var(--muted);font-size:.9rem}.tags{display:flex;flex-wrap:wrap;gap:7px}.tags span{font-size:.7rem;border:1px solid var(--line);border-radius:999px;padding:5px 8px}
+.timeline{display:grid;gap:15px}.item{border-left:2px solid #67e8f955;padding:20px 22px;background:linear-gradient(90deg,#67e8f90b,transparent);border-radius:0 17px 17px 0}.item h3{margin:5px 0}.meta{color:var(--cyan);font-size:.75rem;font-weight:800}
+.contact{display:grid;grid-template-columns:1fr .9fr;gap:18px}.contact a,.contact div.row{display:flex;justify-content:space-between;gap:15px;padding:15px;border:1px solid var(--line);border-radius:14px;margin-bottom:10px}.contact span{color:var(--muted);font-size:.85rem}
+footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:.8rem}.reveal{opacity:0;transform:translateY(18px);transition:.7s}.reveal.show{opacity:1;transform:none}
+@media(max-width:850px){.hero-grid,.grid2,.contact{grid-template-columns:1fr}.projects{grid-template-columns:1fr}.links{display:none}section{padding:78px 0}.hero{padding-top:105px}}
+</style>
+</head>
+<body>
+<nav class="nav"><div class="wrap navin"><a class="logo" href="#home">VISHWA<b>.</b></a><div class="links"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a></div></div></nav>
+
+<section class="hero" id="home"><div class="wrap hero-grid">
+<div class="reveal"><div class="eyebrow">Computer Science Engineer</div><h1>Building ideas into <span class="grad">digital experiences.</span></h1><p class="sub">I'm Vishwa A J, a Computer Science Engineering graduate focused on software development, problem-solving and continuous learning.</p><div class="actions"><a class="btn primary" href="#projects">Explore Projects ↗</a><a class="btn" href="#contact">Let's Connect</a></div></div>
+<div class="card reveal"><div class="terminal"><div class="dots"><i></i><i></i><i></i></div><span class="cyan">vishwa@portfolio</span>:~$ whoami<br><span class="violet">Computer Science Engineer</span><br><br><span class="cyan">vishwa@portfolio</span>:~$ stack --show<br><span class="violet">Python · Java · SQL · React · Node.js</span><br><br><span class="cyan">vishwa@portfolio</span>:~$ status<br><span class="violet">open to opportunities_</span></div><div class="stats"><div class="stat"><b>7.14</b><span> B.E. CGPA</span></div><div class="stat"><b>3+</b><span> Projects</span></div><div class="stat"><b>2026</b><span> Graduation</span></div><div class="stat"><b>CS</b><span> Discipline</span></div></div></div>
+</div></section>
+
+<section id="about"><div class="wrap"><div class="head reveal"><div class="label">01 / About</div><h2>A little about me.</h2></div><div class="grid2"><div class="card reveal"><p class="muted">Motivated Computer Science Engineering graduate with a strong foundation in Python, Java, SQL, and web technologies. Passionate about software development, problem-solving, and continuous learning. Seeking an entry-level Software Developer or IT role where I can apply my technical skills, contribute to meaningful projects, and grow as a professional.</p></div><div class="card reveal"><div class="label">Focus</div><h3 style="margin:9px 0">Technology + creativity</h3><p class="muted">Alongside development, I have a strong interest in graphic design and visual storytelling.</p><div class="skills"><span class="skill">Teamwork</span><span class="skill">Logical Thinking</span><span class="skill">Problem Solving</span><span class="skill">Communication</span></div></div></div></div></section>
+
+<section id="skills"><div class="wrap"><div class="head reveal"><div class="label">02 / Skills</div><h2>My toolkit.</h2><p class="lead">Technologies and tools from my current resume.</p></div><div class="card reveal"><div class="skills"><span class="skill">Python</span><span class="skill">Java</span><span class="skill">MySQL</span><span class="skill">React</span><span class="skill">Node.js</span><span class="skill">MongoDB</span><span class="skill">GitHub</span><span class="skill">VS Code</span><span class="skill">Eclipse</span><span class="skill">Cybersecurity</span><span class="skill">Graphic Design</span><span class="skill">Adobe Creative Suite</span></div></div></div></section>
+
+<section id="projects"><div class="wrap"><div class="head reveal"><div class="label">03 / Projects</div><h2>Selected work.</h2></div><div class="projects">
+<article class="card project reveal"><div><div class="num">01 — 2026</div><h3>IoMT — Internet of Medical Things</h3><p class="muted">Developed an IoMT healthcare monitoring system for collecting and processing patient health data, with real-time monitoring and proactive detection.</p></div><div class="tags"><span>IoMT</span><span>Healthcare</span><span>Monitoring</span></div></article>
+<article class="card project reveal"><div><div class="num">02 — 2023</div><h3>Object Detection System</h3><p class="muted">Developed a real-time object detection system using Python, applying computer vision and image processing techniques.</p></div><div class="tags"><span>Python</span><span>Computer Vision</span><span>React</span><span>Node.js</span></div></article>
+<article class="card project reveal"><div><div class="num">03 — 2025</div><h3>Online Blog Platform</h3><p class="muted">Developed a responsive blog platform for creating, editing and managing posts, with authentication and content management.</p></div><div class="tags"><span>Java</span><span>Web</span><span>Authentication</span></div></article>
+</div></div></section>
+
+<section id="education"><div class="wrap"><div class="head reveal"><div class="label">04 / Education</div><h2>Education & certifications.</h2></div><div class="timeline">
+<div class="item reveal"><div class="meta">NOV 2023 — MAY 2026</div><h3>B.E. — Computer Science Engineering</h3><p class="muted">KGISL Institute of Technology · Coimbatore · CGPA 7.14</p></div>
+<div class="item reveal"><div class="meta">2023</div><h3>Diploma in Computer Science Engineering</h3><p class="muted">N.P.A. Centenary Polytechnic College · Kotagiri · 89.3%</p></div>
+<div class="item reveal"><div class="meta">JAN 2025</div><h3>Cybersecurity Certificate</h3><p class="muted">Google — Coursera</p></div>
+<div class="item reveal"><div class="meta">JUL 2024</div><h3>Basics of Python Skill Test</h3><p class="muted">HackerRank</p></div>
+<div class="item reveal"><div class="meta">NOV 2022</div><h3>Master in Graphic Designing</h3><p class="muted">Adoro Multimedia</p></div>
+</div></div></section>
+
+<section id="contact"><div class="wrap"><div class="head reveal"><div class="label">05 / Contact</div><h2>Let's build something.</h2><p class="lead">Open to entry-level Software Developer and IT opportunities.</p></div><div class="contact"><div class="card reveal">
+<a href="mailto:ajvishwa.cs@gmail.com"><strong>Email</strong><span>ajvishwa.cs@gmail.com ↗</span></a>
+<a href="tel:+917810005302"><strong>Phone</strong><span>+91 7810005302 ↗</span></a><div class="row"><strong>Location</strong><span>Coimbatore, Tamil Nadu</span></div></div><div class="card reveal"><div class="label">Next step</div><h3 style="font-size:1.45rem;margin:9px 0">Have an opportunity?</h3><p class="muted" style="margin-bottom:18px">Feel free to reach out by email. I'm interested in opportunities where I can apply my technical skills and continue growing.</p><a class="btn primary" href="mailto:ajvishwa.cs@gmail.com?subject=Opportunity%20for%20Vishwa%20A%20J">Email Me ↗</a></div></div></div></section>
+
+<footer><div class="wrap">© 2026 Vishwa A J · Designed & built with curiosity.</div></footer>
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>e.isIntersecting&&e.target.classList.add('show')),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(e=>io.observe(e));
+</script>
+</body></html>
